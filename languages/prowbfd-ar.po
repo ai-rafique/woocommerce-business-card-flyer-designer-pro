@@ -1,0 +1,714 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce business card designer pro\n"
+"POT-Creation-Date: 2017-03-28 12:31+0600\n"
+"PO-Revision-Date: 2017-03-28 12:32+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: E:\\xampp\\htdocs\\wp_461\\wp-content\\plugins"
+"\\woocommerce-business-card-flyer-designer-pro\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/custom-image-display.php:39 includes/custom-image-display.php:280
+msgid "Custom Design"
+msgstr "تصميم خاص"
+
+#: includes/custom-image-display.php:314
+msgid "Print/Save BG"
+msgstr "طباعة / حفظ بغ"
+
+#: includes/custom-image-display.php:318
+msgid "Print/Save Logo"
+msgstr "طباعة / حفظ الشعار"
+
+#: includes/custom-image-display.php:323
+msgid "Download SVG"
+msgstr "تحميل سفغ"
+
+#: includes/custom-image-display.php:325
+msgid "Design Print/Save"
+msgstr "تصميم طباعة / حفظ"
+
+#: includes/popup-iframe.php:108 includes/template.php:184
+msgid "Image Control"
+msgstr "التحكم في الصور"
+
+#: includes/popup-iframe.php:112
+msgid "image lock"
+msgstr "قفل الصورة"
+
+#: includes/popup-iframe.php:113
+msgid "image unlock"
+msgstr "فتح الصورة"
+
+#: includes/popup-iframe.php:117 includes/template.php:188
+msgid "bring to front"
+msgstr "اجلب للمقدمة"
+
+#: includes/popup-iframe.php:120 includes/template.php:191
+msgid "send to back"
+msgstr "إرسال إلى الخلف"
+
+#: includes/popup-iframe.php:123 includes/template.php:194
+msgid "remove item"
+msgstr "إزالة بند"
+
+#: includes/popup-iframe.php:129 includes/template.php:200
+msgid "Customize Text ( Front Side )"
+msgstr "تخصيص النص (الجانب الأمامي)"
+
+#: includes/popup-iframe.php:130 includes/template.php:201
+msgid "Customize Text ( Back Side )"
+msgstr "تخصيص النص (الجانب الخلفي)"
+
+#: includes/popup-iframe.php:137 includes/popup-iframe.php:185
+#: includes/template.php:207 includes/template.php:250
+msgid "font size increase"
+msgstr "زيادة حجم الخط"
+
+#: includes/popup-iframe.php:138 includes/popup-iframe.php:186
+#: includes/template.php:208 includes/template.php:251
+msgid "font size decrease"
+msgstr "حجم الخط انخفاض"
+
+#: includes/popup-iframe.php:142 includes/popup-iframe.php:190
+#: includes/template.php:212 includes/template.php:255
+msgid "align left"
+msgstr "محاذاة لليسار"
+
+#: includes/popup-iframe.php:143 includes/popup-iframe.php:191
+#: includes/template.php:213 includes/template.php:256
+msgid "align center"
+msgstr "محاذاة الوسط"
+
+#: includes/popup-iframe.php:144 includes/popup-iframe.php:192
+#: includes/template.php:214 includes/template.php:257
+msgid "align right"
+msgstr "محاذاة اليمين"
+
+#: includes/popup-iframe.php:148 includes/popup-iframe.php:196
+#: includes/template.php:217 includes/template.php:261
+msgid "text color"
+msgstr "لون الخط"
+
+#: includes/popup-iframe.php:152 includes/popup-iframe.php:200
+#: includes/template.php:221 includes/template.php:265
+msgid "text font"
+msgstr "خط النص"
+
+#: includes/popup-iframe.php:163 includes/popup-iframe.php:212
+#: includes/template.php:233 includes/template.php:277
+msgid "text bold"
+msgstr "النص غامق"
+
+#: includes/popup-iframe.php:164 includes/popup-iframe.php:213
+#: includes/template.php:234 includes/template.php:278
+msgid "text italic"
+msgstr "النص مائل"
+
+#: includes/popup-iframe.php:165 includes/popup-iframe.php:214
+#: includes/template.php:235 includes/template.php:279
+msgid "text underline"
+msgstr "النص تسطير"
+
+#: includes/popup-iframe.php:169 includes/popup-iframe.php:218
+msgid "text lock"
+msgstr "قفل النص"
+
+#: includes/popup-iframe.php:170 includes/popup-iframe.php:219
+msgid "text unlock"
+msgstr "فتح النص"
+
+#: includes/popup-iframe.php:172 includes/popup-iframe.php:223
+#: includes/template.php:239 includes/template.php:283
+msgid "text remove"
+msgstr "إزالة النص"
+
+#: includes/popup-iframe.php:178 includes/popup-iframe.php:227
+#: includes/template.php:243 includes/template.php:287
+msgid "Enter Your Text"
+msgstr "أدخل نصك"
+
+#: includes/setup.php:66
+msgid "WBFD-Settings"
+msgstr "إعدادات وبفد"
+
+#: includes/template.php:293
+msgid "Price"
+msgstr "السعر"
+
+#: includes/template.php:294
+msgid "Qty"
+msgstr "الكمية"
+
+#: includes/template.php:320
+msgid "Products Options"
+msgstr "خيارات المنتجات"
+
+#: includes/template.php:405
+msgid "Login Message"
+msgstr "رسالة تسجيل الدخول"
+
+#: includes/template.php:406
+msgid ""
+"You are now login by the super admin ! . Super admin can not save the design "
+"from frontend."
+msgstr ""
+"أنت الآن الدخول من قبل المشرف السوبر! . سوبر المشرف لا يمكن حفظ التصميم من "
+"الواجهة الأمامية."
+
+#: includes/template.php:407
+msgid "Please login as a user"
+msgstr "الرجاء تسجيل الدخول كمستخدم"
+
+#: includes/template.php:411
+msgid "Success Message"
+msgstr "نجاح رسالة"
+
+#: includes/template.php:412
+msgid "Your design have been successfully saved !"
+msgstr "تم حفظ التصميم بنجاح!"
+
+#: includes/user-saved-custom-design-list.php:19
+msgid "SN"
+msgstr "سن"
+
+#: includes/user-saved-custom-design-list.php:20
+msgid "User Name"
+msgstr "اسم المستخدم"
+
+#: includes/user-saved-custom-design-list.php:26
+msgid "Edit"
+msgstr "تصحيح"
+
+#: includes/user-saved-custom-design-list.php:34
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك أذونات كافية للدخول إلى هذه الصفحة."
+
+#: includes/wbfd-settings.php:42
+msgid "Upload Button Image"
+msgstr "تحميل صورة الزر"
+
+#: includes/wbfd-settings.php:46
+msgid "Upload Background Button"
+msgstr "تحميل زر الخلفية"
+
+#: includes/wbfd-settings.php:54
+msgid "Upload Logo Button"
+msgstr "تحميل شعار الشعار"
+
+#: includes/wbfd-settings.php:62
+msgid "Upload More Text Button"
+msgstr "تحميل المزيد من زر النص"
+
+#: includes/wbfd-settings.php:70
+msgid "Upload Save Button"
+msgstr "تحميل زر حفظ"
+
+#: includes/wbfd-settings.php:78
+msgid "Upload Add To Cart Button"
+msgstr "تحميل إضافة إلى عربة زر"
+
+#: includes/wbfd-settings.php:87
+msgid "Button Visibility"
+msgstr "زر الرؤية"
+
+#: includes/wbfd-settings.php:90
+msgid "Enable/Disable Background Upload Button"
+msgstr "تمكين / تعطيل زر تحميل الخلفية"
+
+#: includes/wbfd-settings.php:98
+msgid "Enable/Disable Logo Upload Button"
+msgstr "تمكين / تعطيل شعار تحميل الشعار"
+
+#: includes/wbfd-settings.php:106
+msgid "Enable/Disable More Text Button"
+msgstr "تمكين / تعطيل المزيد من زر النص"
+
+#: includes/wbfd-settings.php:114
+msgid "Enable/Disable Save Button"
+msgstr "تمكين / تعطيل حفظ زر"
+
+#: woocommerce-business-card-flyer-designer-pro.php:25
+msgid "Custom Business Card Design Option"
+msgstr "مخصص تصميم بطاقة الأعمال الخيار"
+
+#: woocommerce-business-card-flyer-designer-pro.php:82
+msgid "Enable for Custom Design?"
+msgstr "هل تريد تمكين التصميم المخصص؟"
+
+#: woocommerce-business-card-flyer-designer-pro.php:86
+msgid "Custom Price"
+msgstr "سعر مخصص"
+
+#: woocommerce-business-card-flyer-designer-pro.php:90
+msgid "Design Width"
+msgstr "تصميم العرض"
+
+#: woocommerce-business-card-flyer-designer-pro.php:94
+msgid "Design Height"
+msgstr "تصميم الارتفاع"
+
+#: woocommerce-business-card-flyer-designer-pro.php:99
+msgid "Upload Front Background Image"
+msgstr "تحميل صورة خلفية أمامية"
+
+#: woocommerce-business-card-flyer-designer-pro.php:105
+msgid "Upload Back Background Image"
+msgstr "تحميل صورة الخلفية الخلفية"
+
+#: woocommerce-business-card-flyer-designer-pro.php:355
+msgid "Customize"
+msgstr "يعدل أو يكيف"
+
+#~ msgid "Please try again"
+#~ msgstr "حاول مرة اخرى"
+
+#~ msgid "Please choose your image"
+#~ msgstr "الرجاء اختيار صورتك"
+
+#~ msgid "Please install woocommerce plugin"
+#~ msgstr "الرجاء تثبيت woocommerce المساعد"
+
+#~ msgid "Add New Art"
+#~ msgstr "إضافة الفن الجديد"
+
+#~ msgid "Image"
+#~ msgstr "صورة"
+
+#~ msgid "Delete"
+#~ msgstr "حذف"
+
+#~ msgid "No art yet"
+#~ msgstr "لا الفن بعد"
+
+#~ msgid "Custom Art Upload"
+#~ msgstr "عرف الفن تحميل"
+
+#~ msgid "Upload Your Art"
+#~ msgstr "تحميل فنك"
+
+#~ msgid "Browse"
+#~ msgstr "تصفح"
+
+#~ msgid "Save"
+#~ msgstr "حفظ"
+
+#~ msgid "Choose Product Options"
+#~ msgstr "اختر خيارات المنتج"
+
+#~ msgid "--Select--"
+#~ msgstr "--اختار--"
+
+#~ msgid "Previous"
+#~ msgstr "سابق"
+
+#~ msgid "Next"
+#~ msgstr "التالى"
+
+#~ msgid "Print Custom Image"
+#~ msgstr "طباعة صورة مخصصة"
+
+#~ msgid "SVG"
+#~ msgstr "SVG"
+
+#~ msgid "Print Logo"
+#~ msgstr "طباعة الشعار"
+
+#~ msgid "There was no custom design data"
+#~ msgstr "لم يكن هناك أي بيانات التصميم حسب الطلب"
+
+#~ msgid "Choose Product"
+#~ msgstr "اختيار المنتج"
+
+#~ msgid "Add Text"
+#~ msgstr "إضافة نص"
+
+#~ msgid "Add Art"
+#~ msgstr "إضافة الفن"
+
+#~ msgid "Help"
+#~ msgstr "مساعدة"
+
+#~ msgid "No Products Yet"
+#~ msgstr "لا المنتجات ولكن"
+
+#~ msgid "Normal Text"
+#~ msgstr "نص عادي"
+
+#~ msgid "Curved Text"
+#~ msgstr "نص منحني"
+
+#~ msgid "Enter your text here"
+#~ msgstr "أدخل النص هنا"
+
+#~ msgid "Update"
+#~ msgstr "تحديث"
+
+#~ msgid "New Text"
+#~ msgstr "نص جديد"
+
+#~ msgid "General Settings"
+#~ msgstr "الاعدادات العامة"
+
+#~ msgid "Change Font"
+#~ msgstr "تغيير الخط"
+
+#~ msgid "Text Color"
+#~ msgstr "لون الخط"
+
+#~ msgid "Text Align"
+#~ msgstr "محاذاة النص"
+
+#~ msgid "Text Style"
+#~ msgstr "نمط النص"
+
+#~ msgid "Text Move"
+#~ msgstr "نقل النص"
+
+#~ msgid "Move Front"
+#~ msgstr "تحرك الجبهة"
+
+#~ msgid "Move Back"
+#~ msgstr "ارجع للوراء"
+
+#~ msgid "Curved Text Settings"
+#~ msgstr "إعدادات النص المنحنية"
+
+#~ msgid "Text Curved"
+#~ msgstr "نص منحني"
+
+#~ msgid "Spacing"
+#~ msgstr "مباعدة"
+
+#~ msgid "Text Flip"
+#~ msgstr "فليب النص"
+
+#~ msgid "Flip Top"
+#~ msgstr "أعلى الوجه"
+
+#~ msgid "Flip Bottom"
+#~ msgstr "أسفل الوجه"
+
+#~ msgid "Upload Your Image"
+#~ msgstr "تحميل صورتك"
+
+#~ msgid "Upload"
+#~ msgstr "تحميل"
+
+#~ msgid "Art Gallery"
+#~ msgstr "معرض فنون"
+
+#~ msgid "No art yet."
+#~ msgstr "لا الفن حتى الان."
+
+#~ msgid "Image Move"
+#~ msgstr "صورة نقل"
+
+#~ msgid "New Art"
+#~ msgstr "الفن الجديد"
+
+#~ msgid "Buy Product"
+#~ msgstr "شراء المنتج"
+
+#~ msgid "Quantity"
+#~ msgstr "كمية"
+
+#~ msgid "Add To Cart"
+#~ msgstr "أضف إلى السلة"
+
+#~ msgid "Preview"
+#~ msgstr "معاينة"
+
+#~ msgid "Front"
+#~ msgstr "جبهة"
+
+#~ msgid "Back"
+#~ msgstr "الى الخلف"
+
+#~ msgid "Buy"
+#~ msgstr "يشترى"
+
+#~ msgid "Add Text Error"
+#~ msgstr "إضافة نص الخطأ"
+
+#~ msgid "There was no text entered. Please type some text and click Next"
+#~ msgstr "لم يكن هناك نص تم إدخاله. يرجى كتابة بعض النصوص وانقر فوق التالي"
+
+#~ msgid "Please type some text without multiline for curved and click Next"
+#~ msgstr "يرجى كتابة بعض النصوص دون متعدد لالمنحني ثم انقر فوق التالي"
+
+#~ msgid "Add Product Options Error"
+#~ msgstr "إضافة خيارات المنتج خطأ"
+
+#~ msgid "Please choose product options and then Add To Cart"
+#~ msgstr "الرجاء اختيار خيارات المنتج ثم أضف للسلة"
+
+#~ msgid "View Cart"
+#~ msgstr "السلة عرض"
+
+#~ msgid "Successfully added to your cart."
+#~ msgstr "وأضاف بنجاح إلى سلة التسوق الخاصة بك."
+
+#~ msgid "Color Settings"
+#~ msgstr "إعدادات الألوان"
+
+#~ msgid "Background Color"
+#~ msgstr "لون الخلفية"
+
+#~ msgid "Start Color"
+#~ msgstr "بدء بالألوان"
+
+#~ msgid "End Color"
+#~ msgstr "نهاية اللون"
+
+#~ msgid "Content Color"
+#~ msgstr "اللون المحتوى"
+
+#~ msgid "Menu Default Text Color"
+#~ msgstr "القائمة لون الخط افتراضي"
+
+#~ msgid "Menu Selected Color"
+#~ msgstr "قائمة مختارة اللون"
+
+#~ msgid "Menu Selected Text Color"
+#~ msgstr "القائمة المحددة لون الخط"
+
+#~ msgid "Menu Border Color"
+#~ msgstr "القائمة لون الحدود"
+
+#~ msgid "Product Selected Color"
+#~ msgstr "المنتج اللون المحدد"
+
+#~ msgid "Content Text Color"
+#~ msgstr "المحتوى لون الخط"
+
+#~ msgid "Content Text Border Color"
+#~ msgstr "نص المحتوى لون الحدود"
+
+#~ msgid "Button Settings"
+#~ msgstr "إعدادات زر"
+
+#~ msgid "Background Gradient Start Color"
+#~ msgstr "خلفية متدرجة بدء بالألوان"
+
+#~ msgid "Background Gradient End Color"
+#~ msgstr "خلفية متدرجة واللون"
+
+#~ msgid "Border Color"
+#~ msgstr "لون الحدود"
+
+#~ msgid "Border Radius"
+#~ msgstr "الشعاع الحدود"
+
+#~ msgid "Font Size"
+#~ msgstr "حجم الخط"
+
+#~ msgid "Font Family"
+#~ msgstr "خط العائلة"
+
+#~ msgid "Padding Top"
+#~ msgstr "الحشو الأعلى"
+
+#~ msgid "Padding Bottom"
+#~ msgstr "أسفل الحشو"
+
+#~ msgid "Padding Left"
+#~ msgstr "الحشو اليسار"
+
+#~ msgid "Padding Right"
+#~ msgstr "الحشو اليمين"
+
+#~ msgid "Background Gradient Start Color(hover)"
+#~ msgstr "خلفية متدرجة بدء بالألوان (تحوم)"
+
+#~ msgid "Background Gradient End Color(hover)"
+#~ msgstr "خلفية متدرجة واللون (تحوم)"
+
+#~ msgid "Border Color(hover)"
+#~ msgstr "اللون الحدود (تحوم)"
+
+#~ msgid "Text Color(hover)"
+#~ msgstr "لون الخط (تحوم)"
+
+#~ msgid "Enter help text"
+#~ msgstr "إدخال نص التعليمات"
+
+#~ msgid "Enter customization cost text"
+#~ msgstr "إدخال نص تكلفة التخصيص"
+
+#~ msgid "Settings Change"
+#~ msgstr "تغيير إعدادات"
+
+#~ msgid "WTD-Settings"
+#~ msgstr "يوم الذكرى العالمي-إعدادات"
+
+#~ msgid "Art List"
+#~ msgstr "قائمة الفن"
+
+#~ msgid "Custom Design Option"
+#~ msgstr "الخيار التصميم حسب الطلب"
+
+#~ msgid "Enable design panel at frontend?"
+#~ msgstr "تمكن فريق التصميم في الواجهة؟"
+
+#~ msgid "Extra price for custom design"
+#~ msgstr "ثمن إضافي لتصميم مخصص"
+
+#~ msgid "Upload back side image"
+#~ msgstr "تحميل ظهر الصورة الجانبية"
+
+#~ msgid "Choose"
+#~ msgstr "اختار"
+
+#~ msgid "OK"
+#~ msgstr "حسنا"
+
+#~ msgid "CLOSE"
+#~ msgstr "أغلق"
+
+#~ msgid "Allow Gift Option"
+#~ msgstr "تسمح هدية الخيار"
+
+#~ msgid "Gift Based on Single Subtotal"
+#~ msgstr "هدية بناء على المجموع واحد"
+
+#~ msgid "Gift Based on Multiple Subtotal"
+#~ msgstr "هدية بناء على المجموع الفرعي متعددة"
+
+#~ msgid "Gift Based on Categories Products"
+#~ msgstr "هدية استنادا إلى فئات المنتجات"
+
+#~ msgid "Gift Based on Number of Categories Products"
+#~ msgstr "هدية بناء على عدد من فئات المنتجات"
+
+#~ msgid "Gift Based on Total Quantity"
+#~ msgstr "هدية بناء على مجموع الكمية"
+
+#~ msgid "Gift for any Products"
+#~ msgstr "هدية لأي منتج"
+
+#~ msgid "Disable"
+#~ msgstr "تعطيل"
+
+#~ msgid "Subtotal Amount Range"
+#~ msgstr "المجموع الفرعي المبلغ المدى"
+
+#~ msgid "From"
+#~ msgstr "frəmمن عند"
+
+#~ msgid "To"
+#~ msgstr "إلى"
+
+#~ msgid "Select Categories Products"
+#~ msgstr "حدد فئات المنتجات"
+
+#~ msgid "Select"
+#~ msgstr "اختار"
+
+#~ msgid "Products Image"
+#~ msgstr "منتجات صورة"
+
+#~ msgid "Products Name"
+#~ msgstr "اسم المنتجات"
+
+#~ msgid "Category Name"
+#~ msgstr "اسم الفئة"
+
+#~ msgid "No Categories yet. Add Product Category"
+#~ msgstr "لا يوجد فئات حتى الان. إضافة فئة المنتج"
+
+#~ msgid "Select Category"
+#~ msgstr "اختر الفئة"
+
+#~ msgid "Number of Products"
+#~ msgstr "عدد من المنتجات"
+
+#~ msgid "Total Quantity"
+#~ msgstr "الكمية الإجمالية"
+
+#~ msgid "Select Gift"
+#~ msgstr "اختر هدية"
+
+#~ msgid "Add Gift Item from Existing Products"
+#~ msgstr "إضافة البند هدية من المنتجات الحالية"
+
+#~ msgid "Add New Gift Products.."
+#~ msgstr "إضافة هدية منتجات جديدة .."
+
+#~ msgid "No existing  products"
+#~ msgstr "لا المنتجات الحالية"
+
+#~ msgid "To Add Gift Item, Add Subtotal First"
+#~ msgstr "إضافة البند هدية، اضافة المجموع الفرعي أولا"
+
+#~ msgid "Add Subtotal"
+#~ msgstr "إضافة المجموع الفرعي"
+
+#~ msgid "No Gift Products"
+#~ msgstr "لا هدية المنتجات"
+
+#~ msgid "To Select Gift Item, Add Subtotal First"
+#~ msgstr "لاختيار هدية البند، اضافة المجموع الفرعي أولا"
+
+#~ msgid "Please select an option from above to activate the gift manager."
+#~ msgstr "الرجاء تحديد خيار من فوق لتفعيل مدير هدية."
+
+#~ msgid "Custom Gift Message"
+#~ msgstr "العرف هدية رسالة"
+
+#~ msgid "Gift Messages:"
+#~ msgstr "الرسائل هدية:"
+
+#~ msgid "Custom Popup Title"
+#~ msgstr "مخصصة المنبثقة عنوان"
+
+#~ msgid "Popup Title:"
+#~ msgstr "عنوان المنبثقة:"
+
+#~ msgid "Title Font Size:"
+#~ msgstr "عنوان حجم الخط:"
+
+#~ msgid "px"
+#~ msgstr "بكسل"
+
+#~ msgid "Title Font Color:"
+#~ msgstr "لقب لون الخط:"
+
+#~ msgid "Gift Added Options to the Cart:"
+#~ msgstr "خيارات اضاف هدية إلى العربة:"
+
+#~ msgid "automatically"
+#~ msgstr "تلقائيا"
+
+#~ msgid "added from slider"
+#~ msgstr "أضيفت من المنزلق"
+
+#~ msgid "WP WooCommerce is required to install this plugin."
+#~ msgstr "مطلوب الفسفور الابيض WooCommerce لتثبيت هذا البرنامج المساعد."
+
+#~ msgid "Gift Offer Going On!!"
+#~ msgstr "هدية العرض يدور !!"
+
+#~ msgid "Gift Offer 2014"
+#~ msgstr "هدية العرض 2014"
+
+#~ msgid "Gift Manager Settings"
+#~ msgstr "إعدادات إدارة هدية"
+
+#~ msgid "Gift Manager"
+#~ msgstr "مدير هدية"
+
+#~ msgid "Add Multiple Subtotal Range"
+#~ msgstr "إضافة المدى الفرعي متعددة"
+
+#~ msgid "Add Another Subtotal Range"
+#~ msgstr "إضافة آخر المدى المجموع الفرعي"

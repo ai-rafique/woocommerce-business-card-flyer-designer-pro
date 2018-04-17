@@ -1,0 +1,2 @@
+[21-Feb-2018 06:36:47 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/lucioaen/printing-website.lucidity-design.com/wp-content/plugins/woocommerce-business-card-flyer-designer-pro/includes/user-saved-custom-design-list.php on line 3
+[26-Feb-2018 08:11:01 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/lucioaen/printing-website.lucidity-design.com/wp-content/plugins/woocommerce-business-card-flyer-designer-pro/includes/upload.php on line 17
