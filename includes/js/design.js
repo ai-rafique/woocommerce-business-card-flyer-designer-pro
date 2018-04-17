@@ -778,7 +778,7 @@ jQuery(document).ready(function()
     jQuery('.wbfd_design_add_to_cart').click(function()
     {
       var hasVariationsValue;
-      
+      console.log(jQuery('.wbfd_option_all').length);
       if( jQuery('.wbfd_option_all').length >0 )
       {
         var getSelectedValue = '';
@@ -807,12 +807,12 @@ jQuery(document).ready(function()
       
       if( hasVariationsValue == -1 || hasVariationsValue == 'no_variation_data' )
       {
-        jQuery('.wbfd_option_content').fadeOut();
-        jQuery('.wbfd_option_content').css('border-bottom', '1px solid #e1e1e1');
-        jQuery('.wbfd_option_content').css('border-top', '1px solid #e1e1e1');
-        jQuery('.wbfd_option_content').css('border-right', '1px solid #e1e1e1');
+        //jQuery('.wbfd_option_content').fadeOut();
+        //jQuery('.wbfd_option_content').css('border-bottom', '1px solid #e1e1e1');
+        //jQuery('.wbfd_option_content').css('border-top', '1px solid #e1e1e1');
+        //jQuery('.wbfd_option_content').css('border-right', '1px solid #e1e1e1');
         
-        jQuery('.wbfd_loading_save_design').css("display", "inline-block");
+        //jQuery('.wbfd_loading_save_design').css("display", "inline-block");
         
         canvasObj.deactivateAll().renderAll();
         
@@ -898,10 +898,10 @@ jQuery(document).ready(function()
       }
       else
       {
-        jQuery('.wbfd_option_content').fadeIn();
-        jQuery('.wbfd_option_content').css('border-bottom', '1px solid #FF0000');
-        jQuery('.wbfd_option_content').css('border-top', '1px solid #FF0000');
-        jQuery('.wbfd_option_content').css('border-right', '1px solid #FF0000');
+        //jQuery('.wbfd_option_content').fadeIn();
+        //jQuery('.wbfd_option_content').css('border-bottom', '1px solid #FF0000');
+        //jQuery('.wbfd_option_content').css('border-top', '1px solid #FF0000');
+        //jQuery('.wbfd_option_content').css('border-right', '1px solid #FF0000');
       }
       
     });

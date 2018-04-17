@@ -313,7 +313,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
        <?php if($get_settings['btn_visibility']['save_btn'] == 1){?>
 
         <div class="wbfd_save_by_user rl_save_button"></div>
-
+        <div class="wbfd_loading_save_design"></div>
          <?php }?>
       <div class="wbfd_clear"></div>
 
@@ -389,9 +389,9 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
       <div class="side_name">
 
-          <h3 class="show_front_title"><?php echo _e('Customize Text ( Front Side )', 'prowbfd');?></h3>
+          <h3 class="show_front_title"><?php echo _e('Sample Text ( Front Side )', 'prowbfd');?></h3>
 
-          <h3 class="show_back_title"><?php echo _e('Customize Text ( Back Side )', 'prowbfd');?></h3>
+          <h3 class="show_back_title"><?php echo _e('Sample Text ( Back Side )', 'prowbfd');?></h3>
 
       </div>    
 
@@ -475,7 +475,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
           <div class="wbfd_textarea_box">
 
-              <textarea id="custom_text_1" class="dynamic_text" name="custom_text" placeholder="<?php echo _e('Enter Your Text', 'prowbfd');?>"></textarea>
+              <textarea id="custom_text_1" class="dynamic_text" name="custom_text" placeholder="<?php echo _e('Enter Text', 'prowbfd');?>"></textarea>
 
           </div>   
 
@@ -587,22 +587,17 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
         <?php if($get_variations_data){?>  
 
-        <div class="wbfd_design_option"></div>
+        <!--<div class="wbfd_design_option"></div>-->
 
         <?php }?>
 
-
         
-
-        <div class="wbfd_design_add_to_cart"></div>
-
-        <div class="wbfd_loading_save_design"></div>
 
       </div>
 
       <div class="wbfd_option_content">
 
-        <div class="wbfd_close_popup"></div>
+       <!-- <div class="wbfd_close_popup"></div> -->
 
         <div class="wbfd_option_area">
 
@@ -615,8 +610,6 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
         ?>
 
         <div class="wbfd_option_all">
-
-          <div class="wbfd_option_header"><?php echo _e('Products Options', 'prowbfd');?></div>
 
             <?php 
 
@@ -668,7 +661,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
                 $var_opt = '';
 
-                $var_str .= '<div class="option_'. sanitize_title(strtolower( $data->names )).'">';
+                $var_str .= '<div class="rl_option option_'. sanitize_title(strtolower( $data->names )).'">';
 
                 $var_str .= '<div class="wbfd_option_title" data-name="'. strtoupper( $data->names ) .'" id="attr_name_'. $i .'"> <span style="color:#58A1EC;">'. strtoupper( $data->names ).'</span></div>';
 
@@ -684,7 +677,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
                   $parse_search = explode( '|',$att_values );
 
-                  $var_str .= '<div style="padding:8px 0px;width:90px;display:inline-block;" id="attr_value_'. $i .'">';
+                  $var_str .= '<div style="width: 110px;display: inline-block;" id="attr_value_'. $i .'">';
 
   //                  echo '<div class="cwd_layer_for_select"></div>';
 
@@ -692,11 +685,11 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
                   if($opt == 1){
 
-                    $var_opt_multi_load .= '<option value="wbfdSelect">--select--</option>';
+                    $var_opt_multi_load .= '<option value="wbfdSelect">Please Choose</option>';
 
                   }
 
-                  $var_opt .= '<option value="wbfdSelect">--select--</option>';
+                  $var_opt .= '<option value="wbfdSelect">Please Choose</option>';
 
                   foreach( $parse_search as $rows ){
 
@@ -722,9 +715,9 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
                   $var_str .= '<div style="padding:10px 0px;" id="attr_value_'. $i .'">';
 
-                  $var_str .= '<select class="wbfd_variation" onchange="wbfd_set_variations_price(this);" id="variation_'. $i .'" style="height:23px;font-size:12px;width:120px;">';
+                  $var_str .= '<select class="wbfd_variation" onchange="wbfd_set_variations_price(this);" id="variation_'. $i .'" style="font-size:12px;width:120px;">';
 
-                  $var_str .= '<option value="wbfdSelect">--select--</option>';
+                  $var_str .= '<option value="wbfdSelect">Please Choose</option>';
 
                   $var_str .= '<option value="'. sanitize_title( $att_values ) .'">'. $att_values .'</option>';
 
@@ -761,16 +754,20 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
 
       </div>
+      <div class="wbfd_design_add_to_cart_panel rl_add_to_cart_panel">
+            <div class="wbfd_design_add_to_cart"></div>
 
-
+            <div class="wbfd_loading_save_design"></div>
+      </div>
+      
 
     </div>
 
-    <div class="wbfd_qty_price_panel">
+    <div class="wbfd_qty_price_panel rl_price_panel">
 
           <div class="wbfd_price"><span><?php echo _e('Total Price', 'prowbfd');?>:&nbsp;</span><span class="wbfd_changable_price"><?php echo $price;?></div></span>
 
-          <div class="wbfd_qty"><input type="text" name="wbfd_qty" id="wbfd_qty" value="1" placeholder="quantity"></div><?php echo get_woocommerce_currency_symbol();?>
+          <!--<div class="wbfd_qty"><input type="text" name="wbfd_qty" id="wbfd_qty" value="1" placeholder="quantity"></div>--><?php echo get_woocommerce_currency_symbol();?>
 
     </div>
 

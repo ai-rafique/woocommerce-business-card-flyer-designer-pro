@@ -14,7 +14,7 @@
 
     margin:60px auto;
 
-    width: 70%;
+    width: 80%;
 
 }
 
@@ -152,9 +152,9 @@
 
 {
 
-    width:490px;
+    width:45%;
 
-    height:675px;
+    height:600px;
 
     float: left;
 
@@ -166,7 +166,7 @@
 
 {
 
-    width:350px;
+    width:50%;
 
     height:600px;
 
@@ -177,6 +177,8 @@
     margin-left:10px;
 
     position:relative;
+
+    margin-bottom: 10px;
 
 }
 
@@ -1400,7 +1402,7 @@
     margin-left:15px;
 
 }
-
+/*
 .wbfd_option_content
 
 {
@@ -1426,7 +1428,20 @@
     display: none;
 
 }
+*/
+.wbfd_option_content
 
+{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.rl_option{
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
 .wbfd_option_area
 
 {
@@ -1435,9 +1450,9 @@
 
     height: 100%;
 
-    overflow: auto;
+    overflow-x: none;
 
-    padding: 10px;
+    padding: 0;
 
 }
 
@@ -1525,17 +1540,19 @@
 
 {
 
-    width:auto;
-
-    height:auto;
-
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    
 }
 
 .wbfd_option_all select
 
 {
 
-  height:2.2em;
+  height:2.5em;
 
   font-size:13px;
 
@@ -1557,8 +1574,8 @@
 
   text-align: center;
 
-  margin-left:10px;
-
+  margin-left:5px;
+  padding: 0.2em 0.2em;
 }
 
 .wbfd_option_header
@@ -1579,7 +1596,7 @@
 
 {
 
-    display:inline-block;
+    font-size: 15px;
 
 }
 
@@ -2148,8 +2165,21 @@ input[type=range]:focus::-ms-fill-upper {
 }
 .rl_save_button{
     float: right;
-    border: 1px solid red;
     bottom: 0;
     margin-top: 30px;
     margin-right: 15px;
+}
+.rl_add_to_cart_panel{
+    height: 40px;
+}
+.rl_add_to_cart_panel .wbfd_design_add_to_cart{
+    float: right;
+    margin-right: 7px;
+}
+.rl_price_panel{
+    width: 80%;
+    height: 30px;
+    float: right;
+    text-align: right;
+    padding-right: 45px;
 }
