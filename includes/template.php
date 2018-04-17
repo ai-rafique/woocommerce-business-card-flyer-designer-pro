@@ -573,13 +573,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
       
 
-      <div class="wbfd_qty_price_panel">
-
-          <div class="wbfd_price"><span><?php echo _e('Price', 'prowbfd');?>:&nbsp;<?php echo get_woocommerce_currency_symbol();?></span><span class="wbfd_changable_price"><?php echo $price;?></span></div>
-
-          <div class="wbfd_qty"><input type="text" name="wbfd_qty" id="wbfd_qty" value="1" placeholder="quantity"></div>
-
-      </div>  
+        
 
       <div class="wbfd_design_add_to_cart_panel">
 
@@ -761,14 +755,27 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
         }
 
         ?>
-
+        
+        
         </div>
 
-      </div>  
+
+      </div>
+
+
+
+    </div>
+
+    <div class="wbfd_qty_price_panel">
+
+          <div class="wbfd_price"><span><?php echo _e('Total Price', 'prowbfd');?>:&nbsp;</span><span class="wbfd_changable_price"><?php echo $price;?></div></span>
+
+          <div class="wbfd_qty"><input type="text" name="wbfd_qty" id="wbfd_qty" value="1" placeholder="quantity"></div><?php echo get_woocommerce_currency_symbol();?>
 
     </div>
 
     <div class="wbfd_clear"></div>
+     
 
     <div class="wbfd_msg_content">
 
