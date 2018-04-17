@@ -281,6 +281,7 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
   <div class="wbfd_designer_sub_container">
 
     <div class="wbfd_div_1_frontend">
+
       <div class="side_name">
 
           <h3 class="show_front_title"><?php echo _e('Customize Your Product', 'prowbfd');?></h3>
@@ -298,7 +299,59 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
     <div class="wbfd_div_2_frontend">
 
-      <div class="wbfd_top_left">
+       <div class="rl_bg_control_panel">
+      <div class="wbfd_bg_icon_area">
+
+        <div class="wbfd_loading"></div>
+
+        <div class="wbfd_front_bg" data-id="1" <?php echo $front_display_mode;?>><img id=""></div>
+
+        <div class="wbfd_back_bg" data-id="2" <?php echo $back_display_mode;?>><img id=""></div>
+
+      </div>
+
+       <?php if($get_settings['btn_visibility']['save_btn'] == 1){?>
+
+        <div class="wbfd_save_by_user rl_save_button"></div>
+
+         <?php }?>
+      <div class="wbfd_clear"></div>
+
+      <div class="wbfd_image_control image-control-frontend">
+
+        <label><?php echo _e('Image Control', 'prowbfd');?></label>
+
+        <div class="imgae-control-list">
+
+          <ul>
+
+            <li>
+
+              <div class="wbfd_object_bring_to_front" title="<?php echo _e('bring to front', 'prowbfd');?>"></div>
+
+            </li>
+
+            <li>
+
+              <div class="wbfd_object_send_to_back" title="<?php echo _e('send to back', 'prowbfd');?>"></div>
+
+            </li>
+
+            <li>
+
+              <div class="wbfd_logo_remove" title="<?php echo _e('remove item', 'prowbfd');?>"></div>
+
+            </li>
+
+          </ul>  
+
+        </div>  
+
+      </div>
+
+      </div>
+
+      <div class="wbfd_top_left rl_imagepanel_upload">
 
         <?php if($get_settings['btn_visibility']['bg_btn'] == 1){?>
 
@@ -333,50 +386,6 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
         <?php }?>
 
       </div>  
-
-      <div class="wbfd_bg_icon_area">
-
-        <div class="wbfd_loading"></div>
-
-        <div class="wbfd_front_bg" data-id="1" <?php echo $front_display_mode;?>><img id=""></div>
-
-        <div class="wbfd_back_bg" data-id="2" <?php echo $back_display_mode;?>><img id=""></div>
-
-      </div>
-
-      <div class="wbfd_clear"></div>
-
-      <div class="wbfd_image_control image-control-frontend">
-
-        <label><?php echo _e('Image Control', 'prowbfd');?></label>
-
-        <div class="imgae-control-list">
-
-          <ul>
-
-            <li>
-
-              <div class="wbfd_object_bring_to_front" title="<?php echo _e('bring to front', 'prowbfd');?>"></div>
-
-            </li>
-
-            <li>
-
-              <div class="wbfd_object_send_to_back" title="<?php echo _e('send to back', 'prowbfd');?>"></div>
-
-            </li>
-
-            <li>
-
-              <div class="wbfd_logo_remove" title="<?php echo _e('remove item', 'prowbfd');?>"></div>
-
-            </li>
-
-          </ul>  
-
-        </div>  
-
-      </div>
 
       <div class="side_name">
 
@@ -588,13 +597,6 @@ $get_settings = get_option( 'wbfd_new_settings_data' );
 
         <?php }?>
 
-        
-
-        <?php if($get_settings['btn_visibility']['save_btn'] == 1){?>
-
-        <div class="wbfd_save_by_user"></div>
-
-         <?php }?>
 
         
 
